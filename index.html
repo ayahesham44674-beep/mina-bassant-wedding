@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mina & Bassant — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="envelope-wrapper" class="envelope-wrapper">
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div><div class="envelope-pocket"></div>
+      <div class="envelope-letter"><img src="images/couple.jpg" class="couple-photo" alt="Mina and Bassant"></div>
+      <div class="wax-seal" id="wax-seal"><span>M&B</span></div>
+    </div>
+  </div>
+  <main id="main-content" class="hidden">
+    <section class="hero-section"><div class="container reveal">
+      <div class="photo-frame"><img src="images/couple.jpg" alt="Mina and Bassant"></div>
+      <div class="invitation-text"><h1 class="names">Mina &amp; Bassant</h1>
+      <p class="intro-text">With great joy and love, we invite you to celebrate our wedding day and share this special moment with us.</p></div>
+    </div></section>
+    <section class="countdown-section"><div class="container reveal">
+      <h2 class="section-title">The Big Day</h2><h3 class="date">15/11/2026</h3>
+      <div class="countdown-timer" id="countdown">
+        <div class="time-box"><span id="days">00</span><p>Days</p></div><div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+        <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div><div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+      </div>
+    </div></section>
+    <section class="details-section"><div class="container reveal"><h2 class="section-title">Wedding Details</h2>
+      <div class="cards-container">
+        <div class="detail-card"><div class="card-icon">💒</div><h3>Church Ceremony</h3><p class="time">5:00 PM</p>
+          <p class="location">Saint Virgin Mary Coptic Orthodox Church in Ard El Golf</p>
+          <a class="map-btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Saint+Virgin+Mary+Coptic+Orthodox+Church+Ard+El+Golf">View on Map</a>
+        </div>
+        <div class="detail-card"><div class="card-icon">🥂</div><h3>Wedding Reception</h3><p class="time">7:00 PM</p>
+          <p class="location">Saint Virgin Mary Coptic Orthodox Church, Ard El-Golf.<br>GLADIUS HALL<br>Gardenia House Wedding Hall</p>
+          <a class="map-btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=GLADIUS+HALL+Gardenia+House+Wedding+Hall+Ard+El+Golf">View on Map</a>
+        </div>
+      </div>
+    </div></section>
+    <footer class="footer">We can't wait to celebrate with you!</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

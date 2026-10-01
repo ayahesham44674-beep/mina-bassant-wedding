@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مينا & بسنت — دعوة الزفاف</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body{font-family:'Cairo',sans-serif}
+    .names{font-family:'Cairo',sans-serif;font-weight:400}
+    .intro-text,.date,.detail-card h3{font-family:'Cairo',sans-serif}
+    .section-title,.footer{font-family:'Great Vibes','Cairo',cursive}
+    .intro-text{font-size:1.1rem}
+    .map-btn{font-family:'Cairo',sans-serif;text-transform:none;letter-spacing:0}
+    .detail-card h3{font-size:1.55rem}
+    .location{direction:rtl}
+    .hero-section .container{direction:rtl}
+    @media(min-width:768px){.hero-section .container{text-align:right}}
+  </style>
+</head>
+<body>
+  <div id="envelope-wrapper" class="envelope-wrapper">
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div><div class="envelope-pocket"></div>
+      <div class="envelope-letter"><img src="../couple.jpeg" class="couple-photo" alt="مينا وبسنت"></div>
+      <div class="wax-seal" id="wax-seal"><span>M&B</span></div>
+    </div>
+  </div>
+
+  <main id="main-content" class="hidden">
+    <section class="hero-section"><div class="container reveal">
+      <div class="photo-frame"><img src="../couple.jpeg" alt="مينا وبسنت"></div>
+      <div class="invitation-text">
+        <h1 class="names">مينا &amp; بسنت</h1>
+        <p class="intro-text">بكل فرحة وحب، ندعوكم لمشاركتنا أجمل يوم في حياتنا والاحتفال معنا بهذه المناسبة المميزة.</p>
+      </div>
+    </div></section>
+
+    <section class="countdown-section"><div class="container reveal">
+      <h2 class="section-title">اليوم الكبير</h2><h3 class="date">15/11/2026</h3>
+      <div class="countdown-timer" id="countdown">
+        <div class="time-box"><span id="days">00</span><p>يوم</p></div>
+        <div class="time-box"><span id="hours">00</span><p>ساعة</p></div>
+        <div class="time-box"><span id="minutes">00</span><p>دقيقة</p></div>
+        <div class="time-box"><span id="seconds">00</span><p>ثانية</p></div>
+      </div>
+    </div></section>
+
+    <section class="details-section"><div class="container reveal">
+      <h2 class="section-title">تفاصيل الفرح</h2>
+      <div class="cards-container">
+        <div class="detail-card">
+          <div class="card-icon">💒</div><h3>مراسم الكنيسة</h3><p class="time">5:00 مساءً</p>
+          <p class="location">كنيسة القديسة العذراء مريم القبطية الأرثوذكسية بأرض الجولف</p>
+          <a class="map-btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Saint+Virgin+Mary+Coptic+Orthodox+Church+Ard+El+Golf">الموقع على الخريطة</a>
+        </div>
+        <div class="detail-card">
+          <div class="card-icon">🥂</div><h3>حفل الزفاف</h3><p class="time">7:00 مساءً</p>
+          <p class="location">قاعة الجلاديوس</p>
+          <a class="map-btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=GLADIUS+HALL+Gardenia+House+Wedding+Hall+Ard+El+Golf">الموقع على الخريطة</a>
+        </div>
+      </div>
+    </div></section>
+    <footer class="footer">في انتظاركم لنحتفل معًا بهذه اللحظة الجميلة!</footer>
+  </main>
+  <script src="arabic.js"></script>
+</body>
+</html>
